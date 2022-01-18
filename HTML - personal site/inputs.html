@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my imput</title>
+  </head>
+  <body>
+  <!--button-->
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10"><br><br>
+
+    <input class="favorite styled"type="button" name="" value="ad to favorites"><br>
+<!--checkbox -->
+<p>choose your monster's features</p>
+<div class="">
+  <input type="checkbox" id="scales" name="scales" checked />
+  <label for="scales">scales</label>
+</div>
+<div class="">
+  <input type="checkbox" id="horns" name="horns" value="">
+  <label for="horns">Horns</label>
+  </div>
+
+  <!--COLOR-->
+  <p>choose your monster's color</p>
+
+  <div class="">
+    <input type="color" id="head" name="head" value="read">
+    <label for="head">head</label>
+  </div>
+
+  <div class="">
+    <input type="color" id="body"name="body" value="green">
+    <label for="body">body</label>
+  </div><br><br>
+
+  <!--DATE-->
+  <label for="start">start date:</label>
+  <input type="date" id="start" name="trip-start" value="15-01-2022" min="01-01-2022" max="31-12-2022"> <br><br>
+
+<!--DATETIME-LOCAL-->
+<label for="meeting time">choose a time for your appoinment</label>
+<input type="datetime-local" id="meeting time" name="meeting time" value="16-01-2022T18:19"
+min="15-01-2022T18:00" max="30-01-2022T00:00"><br><br>
+
+<!--EMAIL-->
+<label for="email">enter your @relianz.com.co email:</label>
+<input type="email" id="email" name="email" value=""
+pattern="@relianz.com.co" size="30" required><br><br>
+
+<!--FILE-->
+<label for="avatar">choose a profile picture:</label>
+<input type="file" id="avatar" name="avatar" value=""
+accept="image/png, image/jpeg">
+
+<!--IMAGE-->
+<p>Sign in to your account</p>
+<div class="">
+  <label for="UserId">User Id</label>
+  <input type="image" id="image" name="UserId" value="">
+  </div>
+  <input type="image" id="image" alt="login" src="/media/examples/login-button.png" name="" value="">
+
+
+
+
+
+  </body>
+</html>
